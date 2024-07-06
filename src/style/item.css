@@ -1,0 +1,161 @@
+.main {
+  width: 1201px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.allgodds-container {
+  margin-top: 50px;
+}
+
+.allgoods-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: 5px 20px;
+}
+
+.name-text {
+  font-size: 14px;
+  color: Cool Gray/800;
+  font-weight: 500;
+}
+.price {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.favorite {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.bestitem-img {
+  width: 282px;
+  height: 282px;
+  border-radius: 16px;
+}
+
+.allitem-img {
+  width: 221px;
+  height: 221px;
+  border-radius: 16px;
+}
+
+.bestitem-card {
+  list-style-type: none;
+}
+
+.category-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.allitems-search-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.allitems-search-bar > input {
+  border-radius: 12px;
+  width: 325px;
+  height: 42px;
+  border: none;
+  background-color: #f3f4f6;
+}
+
+.allitems-search-bar > button {
+  width: 133px;
+  height: 42px;
+  padding: 12px 23px 12px 23px;
+  border-radius: 8px;
+  background-color: #3692ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.allitems-search-bar > select {
+  background-color: #ffffff;
+  border-color: #e5e7eb;
+  padding: 12px, 20px, 12px, 20px;
+  width: 130px;
+  height: 42px;
+  border-radius: 12px;
+  padding: 12px, 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bottom-nav {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.bottom-nav > button {
+  width: 40px;
+  height: 40px;
+  border: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 744px) and (max-width: 1919px) {
+  .main {
+    width: 744px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .bestgoods-container .card-container .bestitem-card:nth-child(n+3) {
+    display: none; 
+  }
+
+  .allgodds-container .card-container .bestitem-card:nth-child(n+7) {
+    display: none; 
+  }
+  }
+
+  @media screen and (max-width: 743px) and (min-width: 375px) {
+    .main {
+      width: 375px;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .bestgoods-container .card-container .bestitem-card:nth-child(n+2) {
+      display: none; 
+    }
+  
+    .allgodds-container .card-container .bestitem-card:nth-child(n+5) {
+      display: none; 
+    }
+
+    .allitem-img {
+      width: 166.89px;
+      height: 166.89px;
+      border-radius: 9.82px;
+      
+    }
+ 
+    
+
+    /* ------------------- */
+.allgoods-header{
+  width: 344px;
+  flex-wrap: wrap;
+}
+    
+  }

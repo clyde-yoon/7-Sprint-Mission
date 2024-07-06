@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.header > ul {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+}
+.header > ul > li {
+  list-style-type: none;
+}
+
+.panda-logo {
+  width: 153px;
+  height: 51px;
+  margin-left: 100px;
+}
+
+.header > button {
+  background-color: #3692ff;
+  width: 88px;
+  height: 42px;
+  gap: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 743px) and (min-width: 375px) {
+.header{
+  width: 375px;
+  height: 70px;
+}
+  .header .panda-logo{
+    margin-left: 5px;
+  }
+  .header .ul{
+    padding-left: 0px;
+  }
+  
+}
